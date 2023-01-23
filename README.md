@@ -3,7 +3,7 @@
 
 `composer install`
 
-`mv .env.example .env`
+`cp .env.example .env`
 
 fill requried env variables to make work mailer service, otherwise not run `php artisan queue:work` command 
 ```
